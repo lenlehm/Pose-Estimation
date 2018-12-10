@@ -4,7 +4,7 @@ In this repository, I calculated Pose Estimations of the camera, as well of the 
 
 The first exercise covers the various Camera Poses and displays them on the image. So where the camera is located in the world frame.
 
-Format: ![Camera Poses](Exercise/1_MATLAB_PoseEstimation/Presentation/CameraPose.png)
+Format: ![Camera Poses](Exercise/1_MATLAB_PoseEstimation/CameraPose.png)
 
 The Second Exercise covers the SIFT keypoints to infer the object pose to various other images using PnP and RANSAC
 Format: ![Object Poses](Exercise/1_MATLAB_PoseEstimation/Presentation/CameraPose.png)
