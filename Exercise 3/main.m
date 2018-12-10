@@ -1,7 +1,10 @@
 %% Get an initial Pose hypothesis of the first frame with PnP and Ransac
-A = [2960.37845 0 1841.68855;
-     0 2960.37845 1235.23369;
-     0 0 1];
+% A = [2960.37845 0 1841.68855;
+%      0 2960.37845 1235.23369;
+%      0 0 1];
+ A = [2960.37845 0 0;
+     0 2960.37845 0;
+     1841.68855 1235.23369 1];
 cameraParams = cameraParameters('IntrinsicMatrix', A); % create the intrinsics camera
 % get the 3D model
 [r, face] = read_ply('teabox.ply');
