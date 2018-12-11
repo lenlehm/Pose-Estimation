@@ -17,4 +17,4 @@ Format: ![Object Poses](Exercise_2_RANSAC/SIFT_Matching.gif)
 Format: ![Object Poses](Exercise_2_RANSAC/Object_Pose_Estimation.gif)
 
 The thrid exercise dealt with the combination of the 2 previous exercises and displays the camera trajectory on all the images. Therefore the first image was used to estimate its pose along with the world coordinates. The consecutive frames were matched with the SIFT keypoints to infer the camera pose on each frame.
-Format: ![Camera Trajectory](Exercise_3/Presentation/Camera_Trajectory.jpg)
+Format: ![Camera Trajectory](Exercise_3/Camera_Trajectory.jpg)
